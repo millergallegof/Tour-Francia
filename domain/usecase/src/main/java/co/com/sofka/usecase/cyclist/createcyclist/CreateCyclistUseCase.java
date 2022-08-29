@@ -10,9 +10,7 @@ import reactor.core.publisher.Mono;
 @RequiredArgsConstructor
 public class CreateCyclistUseCase {
     private final CyclistRepository cyclistRepository;
-    private final TeamRepository teamRepository;
-    private Mono<Cyclist> cyclistNew;
-    private final AssociateCyclistTeamUseCase associateCyclistTeamUseCase;
+
 
     public Mono<Cyclist> createCyclist(Cyclist cyclist) {
         if (cyclist.getCompetitorNumber() > 999 && cyclist.getCompetitorNumber() >= 0)

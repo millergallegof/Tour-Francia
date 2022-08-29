@@ -52,7 +52,7 @@ public class HandlerTeam {
         var idTeam = serverRequest.pathVariable("id");
         return ServerResponse.ok()
                 .contentType(MediaType.APPLICATION_JSON)
-                .body(consultTeamUseCase.finTeam(idTeam), Team.class);
+                .body(consultTeamUseCase.findTeam(idTeam), Team.class);
     }
 
     public Mono<ServerResponse> consultTeamsGETUseCase(ServerRequest serverRequest) {

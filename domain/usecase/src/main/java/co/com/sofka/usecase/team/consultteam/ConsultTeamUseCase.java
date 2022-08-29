@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 public class ConsultTeamUseCase {
     private final TeamRepository teamRepository;
 
-    public Mono<Team> finTeam(String id) {
+    public Mono<Team> findTeam(String id) {
         return teamRepository.findById(id);
     }
 }
