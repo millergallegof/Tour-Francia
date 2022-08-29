@@ -25,5 +25,5 @@
             </ul>
 3. **Ejemplo de peticiones Postman**
 ```sh
-![image](https://user-images.githubusercontent.com/90480065/187296718-e4911798-bdba-4978-8636-370a032776c2.png)
+![image](https://user-images.githubusercontent.com/90480065/187297698-05565d42-0f50-4204-9517-53abab798326.png)
 ```
